@@ -43,11 +43,11 @@
 #~/.bash_aliases (for settings alias)
 #Проверьте наличие
 #if [ -f ~/.bash_aliases ]; then
-#    . ~/.bash_aliases
+#. ~/.bash_aliases
 #fi
 #в вашем ~/.bashrc, и затем сделайте
 # . ~/.bashrc (ввести в bash)
-#alias gs='git status '
+#alias gits='git status '
 #alias ga='git add '
 #alias gb='git branch '
 #alias gc='git commit'
