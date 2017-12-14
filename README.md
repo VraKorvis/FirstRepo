@@ -22,4 +22,32 @@
     %an — имя автора
     --graph — отображает дерево коммитов в виде ASCII-графика
     --date=short — сохраняет формат даты коротким и симпатичным
+#~/.gitconfig (ctrl+h, ls -a)
+[user]
+	name = VraKorvis
+	email = it.korvis@gmail.com
+[core]
+	autocrlf = false
+	safecrlf = false
+	editor = emacs
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
 
+#~/.profile
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gd='git diff'
+alias go='git checkout '
+alias gk='gitk --all&'
+alias gx='gitx --all'
+
+alias got='git '
+alias get='git '
