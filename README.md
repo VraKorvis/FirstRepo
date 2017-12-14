@@ -12,6 +12,7 @@
 # ls -al ~/.ssh //check keys, to see if existing SSH keys are present:
 # Lists the files in your .ssh directory, if they exist
 
+<<<<<<< HEAD
 # формат вывода
 # git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
     --pretty="..." — определяет формат вывода.
@@ -39,7 +40,13 @@
   type = cat-file -t
   dump = cat-file -p
 
-#~/.profile
+#~/.bash_aliases (for settings alias)
+#Проверьте наличие
+#if [ -f ~/.bash_aliases ]; then
+#    . ~/.bash_aliases
+#fi
+#в вашем ~/.bashrc, и затем сделайте
+# . ~/.bashrc (ввести в bash)
 alias gs='git status '
 alias ga='git add '
 alias gb='git branch '
@@ -51,3 +58,4 @@ alias gx='gitx --all'
 
 alias got='git '
 alias get='git '
+
