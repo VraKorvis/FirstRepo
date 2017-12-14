@@ -11,3 +11,6 @@
 
 # ls -al ~/.ssh //check keys, to see if existing SSH keys are present:
 # Lists the files in your .ssh directory, if they exist
+
+# https://webhamster.ru/site/page/index/articles/comp/171 settings
+# 
