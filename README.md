@@ -11,9 +11,8 @@ git push -u origin master
 git rm --cached 
 
 ls -al ~/.ssh //check keys, to see if existing SSH keys are present:
+
 Lists the files in your .ssh directory, if they exist
-
-
 
 git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
     --pretty="..." — определяет формат вывода.
@@ -25,13 +24,16 @@ git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
     --graph — отображает дерево коммитов в виде ASCII-графика
     --date=short — сохраняет формат даты коротким и симпатичным
 ~/.gitconfig (ctrl+h, ls -a)
+
 [user]
 	name = VraKorvis
 	email = it.korvis@gmail.com
+	
 [core]
 	autocrlf = false
 	safecrlf = false
 	editor = emacs
+	
 [alias]
   co = checkout
   ci = commit
@@ -46,6 +48,7 @@ git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
 if [ -f ~/.bash_aliases ]; then
 . ~/.bash_aliases
 fi
+
 в вашем ~/.bashrc, и затем сделайте
  . ~/.bashrc (ввести в bash)
  alias gits='git status '
